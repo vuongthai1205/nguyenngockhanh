@@ -417,7 +417,7 @@ h3.text-1 {
 .row.no-gutter.relate-product-title {
     background: white;
     border-radius: 10px;
-    margin: 14px 0;
+    margin: 14px 0 0;
 }
 
 h3.relate-product-title_text {
@@ -438,13 +438,14 @@ h3.relate-product-title_text {
 }
 
 .product-detail-container.col{
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-top: 18px;
 }
 
 .product-detail-container.row{
-    margin-right: -5px;
-    margin-left: -5px;
+    margin-right: -6px;
+    margin-left: -6px;
 }
 
 .product-detail {
@@ -477,3 +478,4 @@ h3.product-detail-title {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
