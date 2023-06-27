@@ -1,0 +1,25 @@
+@media (max-width: 992px){
+
+    .form-email form{
+        flex-direction: column;
+    }
+    .form-email input[type="email"]{
+        margin-right: 0;
+    }
+    .form-email input[type="submit"]{
+        padding: 0;
+    }
+
+    .product-image {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .product-content{
+        padding-top: 50px;
+    }
+
+    .product-more::before{
+        display: none;
+    }
+}
