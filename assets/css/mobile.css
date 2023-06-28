@@ -6,14 +6,11 @@
         justify-content: center;
         padding: 33px 15px;
     }
-    .form-email form{
-        flex-direction: column;
-    }
     .form-email input[type="email"]{
-        margin-right: 0;
+        margin-right: 8px;
     }
     .form-email input[type="submit"]{
-        padding: 0;
+        padding: 8px 23px;
     }
 
     .product-image {
@@ -79,5 +76,23 @@
 
     .title-more{
         margin-top: 4px;
+    }
+
+    .mission-container {
+        margin-bottom: 100px;
+    }
+    .pagination img {
+        object-fit: contain;
+        width: 100%;
+    }
+
+    
+    
+    .page-home .title-more {
+        width: 100%;
+    }
+
+    .page-home .text-title{
+        font-size: 50px;
     }
 }
