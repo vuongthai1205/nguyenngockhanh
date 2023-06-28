@@ -554,6 +554,7 @@ h4.post-des {
     align-items: center;
     justify-content: center;
     margin-bottom: 15px;
+    gap: 5px;
 }
 
 .pagination img{
@@ -721,4 +722,31 @@ h2.title-post-detail {
 p.paragraph-post-detail {
     font-size: 16px;
     line-height: 1.6;
+}
+
+span.pagination-item.next-pre {
+    font-weight: 700;
+    line-height: 1;
+    font-size: 18px;
+}
+
+span.pagination-item.number {
+    font-weight: 700;
+    color: #ACA9B1;
+}
+
+.pagination .pagination-item {
+    font-size: 14px;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+}
+
+span.pagination-item.number.active {
+    background: #3599FE;
+    color: white;
+    border-radius: 5px;
 }
